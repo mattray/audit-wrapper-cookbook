@@ -1,0 +1,10 @@
+name 'audit-wrapper'
+maintainer 'Matt Ray'
+maintainer_email 'matt@chef.io'
+license 'Apache-2.0'
+description 'Example of wrapping the audit cookbook'
+long_description 'Wrapper cookbook example that wraps the audit cookbook'
+version '0.1.0'
+chef_version '>= 13.0'
+
+depends 'audit'
